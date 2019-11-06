@@ -1,0 +1,8 @@
+{
+	"name": "Azot",
+	"description": "Space Temperature",
+	"temperature": -10.0,
+    "viscosity": 0.01,
+    "effect": "melting",
+    "color": "1568ABFF"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "Sulfur",
+	"description": "Not Dust :P ",
+	"cost": 2.5,
+	"color": "FFF703FF",
+	"hardness": 3.0,
+	"flammability" : 0.7,
+	"explosiveness": 2
+}

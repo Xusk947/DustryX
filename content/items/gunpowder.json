@@ -1,0 +1,9 @@
+{
+	"name": "Gunpowder",
+	"description": "Like a BOOM BOOM BOOM ",
+	"cost": 2.5,
+	"color": "564637FF",
+	"hardness": 0.1,
+	"flammability" : 0.5,
+	"explosiveness": 2
+}

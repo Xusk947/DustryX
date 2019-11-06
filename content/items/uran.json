@@ -1,0 +1,9 @@
+{
+	"type": "material",
+	"name": "Uran",
+	"description": "Not thorium :D",
+	"cost": 2.5,
+	"color": "418029FF",
+	"radioactivity": 2.0,
+	"hardness": 6.0
+}

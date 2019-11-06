@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "Iron",
+	"description": "Hello Again!",
+	"cost": 2.5,
+	"color": "AD7436FF",
+	"hardness": 3.0
+}

@@ -1,0 +1,10 @@
+{
+	"name": "Uran Ammo",
+	"description": "Green Ammo :P",
+	"cost": 2.5,
+	"color": "636373FF",
+	"radioactivity": 3.0,
+	"hardness": 4.0,
+	"flammability": 0.4,
+	"explosiveness": 5
+}

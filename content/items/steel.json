@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "Steel",
+	"description": "Choo! Choo!",
+	"cost": 2.5,
+	"color": "7E746AFF",
+	"hardness": 10.0
+}

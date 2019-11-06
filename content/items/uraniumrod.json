@@ -1,0 +1,8 @@
+{
+	"name": "UraniumRod",
+	"description": "More Radioctivity",
+	"cost": 5.5,
+	"color": "78D998FF",
+	"radioactivity": 3.0,
+	"hardness": 6.0
+}

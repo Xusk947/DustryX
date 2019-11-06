@@ -1,0 +1,8 @@
+{
+	"name": "Liquid Natrium",
+	"description": "Very Cold .. Brrr",
+	"temperature": -1.0,
+    "viscosity": 0.1,
+    "effect": "melting",
+    "color": "537FA3FF"
+}

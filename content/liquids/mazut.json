@@ -1,0 +1,9 @@
+{
+	"name": "Fuel Oil",
+	"description": "Lubricates any technique",
+	"temperature": 1.0,
+    "viscosity": 0.1,
+    "effect": "melting",
+    "color": "84BC47FF",
+    "flammability": 0.1
+}

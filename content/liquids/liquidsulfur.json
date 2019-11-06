@@ -1,0 +1,9 @@
+{
+	"name": "Liquid Sulfur",
+	"description": "Yellow Liqud",
+	"temperature": 0.5,
+    "viscosity": 0.1,
+    "effect": "melting",
+    "color": "E4DD00FF",
+    "flammability": 0.1
+}

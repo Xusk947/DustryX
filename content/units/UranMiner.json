@@ -1,0 +1,26 @@
+{
+	"type": "MinerDrone",
+	"name": "Uran Miner",
+	"description": "Green Drone not radioactive",
+	"maxVelocity": 70,
+	"speed": 0.3,
+	"flying": true,
+	"health": 40,
+	"engineOffset": 2.0,
+	"engineSize": 3, 
+	"rotateSpeed": 3,
+	"mass": 60,
+	"tomine":"uran",
+	"drillPower":6.0,
+	"itemCapacity": 100,
+	"range":10,
+	"minePower": 6.0,
+	"weapon": {
+		"name": "UranLancer",
+		"length": 2.0,
+		"damage": 6.0,
+		"reload": 8.0,
+		"alternate": true,
+		"bullet": "lancerLaser"
+	}
+}

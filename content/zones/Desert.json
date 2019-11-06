@@ -1,0 +1,29 @@
+{
+	"name": "[yellow]Desert",
+	"description": "Desert , sand ,sand , and uran.",
+	"loadout": "basicFoundation",
+    "startingItems": [
+    	{"item": "copper", "amount": 1000},
+    	{"item": "lead", "amount": 800},
+    	{"item": "metaglass" , "amount":150},
+    	{"item": "silicon", "amount": 200}
+    ],
+    "conditionWave": 25,
+    "launchPeriod": 25,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "desolateRift", 
+    		"wave": 40
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "UranDrill"
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "sulfursmelter"
+    	}
+    ],
+    "resources": ["copper","iron","sulfur", "uran","titanium","thorium","lead", "coal", "sand"]
+}

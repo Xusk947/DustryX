@@ -1,0 +1,26 @@
+{
+	"type": "flyingUnit",
+	"name": "Interceptors",
+	"description": "Conquerors of Heaven",
+	"maxVelocity": 70,
+	"speed": 0.4,
+	"flying": true,
+	"health": 100,
+	"engineOffset": 2.0,
+	"range": 100,
+	"weaponOffsetY": 7,                             
+	"engineSize": 3, 
+	"rotateSpeed": 3,
+	"shootCone": 40,
+	"mass": 1500,
+	"targetAir": true,
+	"rotateWeapon": true,
+	"weapon": {
+		"name": "chrome-blaster",
+		"length": 0.9,
+		"damage": 5.0,
+		"reload": 8.0,
+		"alternate": true,
+		"bullet": "standardDense"
+	}
+}

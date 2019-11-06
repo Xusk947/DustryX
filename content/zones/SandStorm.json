@@ -1,0 +1,30 @@
+{
+	"name": "[orange]Sand[yellow]Storm",
+	"description": "Yes it's Desert Again :P.",
+	"loadout": "basicFoundation",
+    "startingItems": [
+    	{"item": "copper", "amount": 1000},
+    	{"item": "lead", "amount": 800},
+    	{"item": "metaglass" , "amount":200},
+    	{"item": "silicon", "amount": 250},
+    	{"item": "graphite", "amount": 150}
+    ],
+    "conditionWave": 45,
+    "launchPeriod": 15,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "Desert", 
+    		"wave": 50
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "UranReactor"
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "Tesla"
+    	}
+    ],
+    "resources": ["copper","rocksalt","iron","sulfur", "uran","titanium","thorium","lead", "coal", "sand"]
+}

@@ -1,0 +1,29 @@
+{
+	"name": "[#AD7436FF]Iron []Mine",
+	"description": "No more Tome to farm Iron.",
+	"loadout": "basicFoundation",
+    "startingItems": [
+    	{"item": "copper", "amount": 250},
+    	{"item": "lead", "amount": 125},
+    	{"item": "graphite" , "amount":75},
+    	{"item": "silicon", "amount": 50}
+    ],
+    "conditionWave": 25,
+    "launchPeriod": 10,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "tarFields", 
+    		"wave": 25
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "laser-drill"
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "cyclone"
+    	}
+    ],
+    "resources": ["copper","titanium","iron","lead","coal","sand"]
+}

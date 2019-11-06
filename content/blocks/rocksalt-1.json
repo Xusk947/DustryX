@@ -1,0 +1,5 @@
+{
+	"type": "OreBlock",
+	"itemDrop": "rocksalt",
+	"hardness": 2.0
+}

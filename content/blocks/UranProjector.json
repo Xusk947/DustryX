@@ -1,0 +1,28 @@
+{
+	"name": "Uran Projector",
+	"description": "Green Light",
+	"type": "OverdriveProjector",
+	"health": 160,
+	"size": 2,
+	"range":100,
+	"speedBoost": 2.5,
+	"consumes":{
+	    "power": 1.0,
+        	"items": {
+			"items": [
+				{ "item": "uran", "amount": 1}
+				
+			],
+			"booster":true
+		}
+},
+    
+	"requirements": [
+		{ "item": "steel", "amount": 45	},
+		{ "item": "uran", "amount":30},
+		{ "item": "silicon", "amount":70}
+	],
+	"boost":true,
+	"category": "effect",
+	"research": "overdrive-projector"
+}

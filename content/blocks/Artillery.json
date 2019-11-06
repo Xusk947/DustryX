@@ -1,0 +1,45 @@
+{
+	"type": "DoubleTurret",
+	"name": "Artillery",
+	"description": "Big Turrent like big Ammo",
+	"health": 1200,
+	"size": 4,
+	"reload": 1000,
+	"range": 3000,
+	"ammoUseEffect": "shellEjectBig",
+	"inaccuracy": 0,
+	"targetAir": false,
+	"rotatespeed": 0.7,
+	"ammo": {
+		"Ammo": {
+			"speed": 70,
+			"damage": 1200,
+			"bulletWidth": 30,
+			"bulletHeight": 30,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"ammoMultiplier": 1
+		},
+		"UranAmmo": {
+			"speed": 90,
+			"damage": 600,
+			"bulletWidth": 40,
+			"bulletHeight": 40,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"ammoMultiplier": 1,
+			"splashDamageRadius":120,
+			"splashDamage": 450
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 1500 },
+		{ "item": "lead", "amount": 900 },
+		{ "item": "titanium", "amount": 960 },
+		{ "item": "thorium", "amount": 770},
+		{ "item": "graphite", "amount":1200},
+		{ "item": "uran", "amount": 500}
+	],
+	"category": "turret",
+	"research": "ripple"
+}

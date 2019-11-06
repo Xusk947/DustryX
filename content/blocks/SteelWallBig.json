@@ -1,0 +1,13 @@
+{
+	"name": "Steel Wall",
+	"description": "Funny Big Wall ",
+	"type": "Wall",
+	"health": 3600,
+	"size": 2,
+	"requirements": [
+		{ "item": "steel", "amount": 40
+		}
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}

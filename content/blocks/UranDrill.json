@@ -1,0 +1,24 @@
+{
+	"name": "Uranium Drill",
+	"description": "Big Drill Like Big ores.",
+	"type": "Drill",
+	"size": 4,
+	"tier": 6,
+	"drillTime": 200,
+	"consumes": {
+		"power": 20.0,
+		"liquid": {
+			"liquid": "liquidsulfur", 
+			"amount": 0.1,
+			"booster": true
+		}
+	},
+	"requirements": [
+		{ "item": "thorium", "amount": 130 },
+		{ "item": "silicon", "amount": 290 },
+		{ "item": "graphite", "amount": 250 },
+		{ "item": "titanium", "amount": 120}
+	], 
+	"category": "production",
+	"research": "laser-drill"
+}

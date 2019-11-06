@@ -1,0 +1,26 @@
+{
+	"type": "GenericCrafter",
+	"name": "Sulfur smelter",
+	"description": "[red]Danger!",
+	"liquidCapacity": 50,
+	"outputLiquid": {"liquid": "liquidsulfur", "amount": 5.0},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 10,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.6,
+		"item": "sulfur"
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 130 },
+		{ "item": "copper", "amount": 90 },
+		{ "item": "silicon", "amount": 40},
+		{ "item": "graphite", "amount": 90}
+	],
+	"category": "crafting",
+	"research": "kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

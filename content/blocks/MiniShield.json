@@ -1,0 +1,28 @@
+{
+	"name": "Mini Shield",
+	"description": "Mini Mini Mini light",
+	"type": "ForceProjector",
+	"health": 160,
+	"size": 1,
+	"radius":50.0,
+	"phaseRadiusBoost":75,
+	"consumes":{
+	    "power": 1.0,
+	  	"items": {
+			"items": [
+				{ "item": "silicon", "amount": 1}
+				
+			],
+			"booster":true
+		}
+	    },
+	"requirements": [
+		{ "item": "steel", "amount": 15},
+		{ "item": "thorium", "amount":30},
+		{ "item": "titanium", "amount": 20}
+		
+	],
+	"boost":true,
+	"category": "effect",
+	"research": "force-projector"
+}

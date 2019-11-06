@@ -1,0 +1,28 @@
+{
+	"type": "GenericCrafter",
+	"name": "Oil refiner",
+	"description": "slippery piece",
+	"liquidCapacity": 200,
+	"outputLiquid": {"liquid": "mazut", "amount": 7.0},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 10,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2.0 , 
+		"liquid": {
+			"liquid": "oil",
+			"amount": 1.0
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 350 },
+		{ "item": "titanium", "amount": 170 },
+		{ "item": "silicon", "amount": 130 }
+	],
+	"category": "crafting",
+	"research": "cryofluidmixer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

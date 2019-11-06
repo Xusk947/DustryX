@@ -1,0 +1,30 @@
+{
+	"type": "GenericSmelter",
+	"name": "enrichment",
+	"description": "enriches uranium",
+	"outputItem": {"item": "uraniumrod", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 300,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 12.0,
+		"items": {
+			"items": [
+				{ "item": "uran", "amount": 3 },
+				{ "item": "graphite", "amount":1}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 260 },
+		{ "item": "graphite", "amount": 120 },
+		{ "item": "silicon", "amount": 170},
+		{ "item": "uran", "amount": 100 }
+	],
+	"category": "crafting",
+	"research": "plastanium-compressor",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

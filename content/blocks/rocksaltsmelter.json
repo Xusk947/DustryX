@@ -1,0 +1,25 @@
+{
+	"type": "GenericCrafter",
+	"name": "Rock Salt Smelter",
+	"description": "Natrium?",
+	"liquidCapacity": 50,
+	"outputLiquid": {"liquid": "natrium", "amount": 6.0},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 10,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.6,
+		"item": "rocksalt"
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 100 },
+		{ "item": "copper", "amount": 170 },
+		{ "item": "graphite", "amount": 120 }
+	],
+	"category": "crafting",
+	"research": "kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

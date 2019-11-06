@@ -1,0 +1,29 @@
+{
+	"type": "GenericSmelter",
+	"name": "Electric High Temperature Stove",
+	"description": "Steel For you ^^",
+	"outputItem": {"item": "steel", "amount": 1.0},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"craftTime": 70,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 5.0,
+		"items":{
+		    "items":[
+		        {"item": "iron", "amount":5}
+		        ]
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 80 },
+		{ "item": "copper", "amount": 110 },
+		{ "item": "silicon", "amount": 70},
+		{ "item": "graphite", "amount": 120}
+	],
+	"category": "crafting",
+	"research": "kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

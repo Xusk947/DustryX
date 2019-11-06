@@ -1,0 +1,31 @@
+{
+	"type": "NuclearReactor",
+	"name": "Nuclear reactor",
+	"description": "It''s a green energy?.",
+	"itemCapacity": 50,
+	"size": 4,
+	"hasLiquids": true,
+    "powerProduction": 175,
+    "itemDuration" : 150,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"item": "uraniumrod",
+		"liquid": {
+			"liquid": "azot",
+			"amount": 0.23
+			}
+    },
+	"requirements": [
+		{ "item": "lead", "amount": 390 },
+		{ "item": "thorium", "amount": 300 },
+		{ "item": "silicon", "amount": 280 },
+		{ "item": "steel", "amount": 230 },
+		{ "item": "iron", "amount": 380 },
+		{ "item": "uran", "amount": 120 },
+		{ "item": "titanium", "amount": 230 }
+	],
+	"category": "power",
+	"research": "thermal-generator",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

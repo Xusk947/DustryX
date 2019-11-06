@@ -1,0 +1,54 @@
+{
+	"type": "DoubleTurret",
+	"name": "Machine Gun",
+	"description": "Tra-ta-ta-ta-ta-ta-ta",
+	"health": 780,
+	"size": 2,
+	"reload": 2.5,
+	"range": 100,
+	"ammoUseEffect": "shellEjectBig",
+	"inaccuracy": 1.5,
+	"targetAir": false,
+	"rotatespeed": 1.0,
+	"ammo": {
+	    "thorium": {
+	        "speed":13,
+	        "damage":9,
+	        "bulletWidth": 2,
+	        "bulletHeight":5,
+	        "shootEffect":"shootBig",
+	        "smokeEffect": "shootBigSmoke",
+	        "ammoMultiplier":7
+	    },
+		"Ammo": {
+			"speed": 10,
+			"damage": 10,
+			"bulletWidth": 3,
+			"bulletHeight": 6,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"ammoMultiplier": 9
+		},
+		"UranAmmo": {
+			"speed": 15,
+			"damage": 15,
+			"bulletWidth": 4,
+			"bulletHeight": 9,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"ammoMultiplier": 10,
+			"splashDamageRadius":5,
+			"splashDamage": 6
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 50 },
+		{ "item": "lead", "amount": 70 },
+		{ "item": "titanium", "amount": 160 },
+		{ "item": "thorium", "amount": 70},
+		{ "item": "graphite", "amount":120},
+		{ "item": "uran", "amount": 50}
+	],
+	"category": "turret",
+	"research": "salvo"
+}

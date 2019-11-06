@@ -1,0 +1,35 @@
+{
+	"type": "GenericCrafter",
+	"name": "Uran Ammo Crafter",
+	"description": "Green :P",
+	"liquidCapacity": 50,
+	"outputItem": {"item" : "UranAmmo", "amount": 1.0},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 100,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.2,
+		"items": {
+			"items": [
+				{ "item": "Ammo", "amount": 2 },
+				{ "item": "uraniumrod", "amount": 3}
+			]
+		},
+		"liquid": {
+			"liquid": "liquidsulfur",
+			"amount": 0.2
+		}
+	    },
+	"requirements": [
+		{ "item": "lead", "amount": 290 },
+		{ "item": "copper", "amount": 150 },
+		{ "item": "graphite", "amount": 250 },
+		{ "item": "uran", "amount": 75}
+	],
+	"category": "crafting",
+	"research": "Ammocrafter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,29 @@
+{
+    "type": "ChargeTurret",
+    "name": "Tesla",
+    "description": "An anti-air electric turret.",
+    "targetAir": true,
+    "targetGround": false,
+    "shootType": "arc",
+    "health": 750,
+    "size": 2,
+    "inaccuracy": 999,
+    "reload": 5,
+    "damage": 250,
+    "shots": 3,
+    "recoil": 0,
+    "shootCone": 360,
+    "rotateSpeed": 30,
+    "range": 100,
+    "shootEffect": "lightningShoot",
+    
+    "requirements": [
+        { "item": "plastanium", "amount": 20 },
+        { "item": "metaglass", "amount": 40 },
+        { "item": "titanium", "amount": 20 },
+        { "item": "silicon", "amount": 30 }
+    ],
+    "category": "turret",
+    "shootSound": "spark",
+	"research": "arc"
+}

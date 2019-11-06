@@ -1,0 +1,30 @@
+{
+	"type": "GenericCrafter",
+	"name": "Azot Mixer",
+	"description": "Cold Machine",
+	"liquidCapacity": 50,
+	"outputLiquid": {"liquid": "azot", "amount": 3.0},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 10,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.2,
+		"liquid": {
+		    "liquid":"natrium",
+		    "amount":"0.6"
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 70 },
+		{ "item": "copper", "amount": 100 },
+		{ "item": "silicon", "amount": 40},
+		{ "item": "graphite", "amount": 80},
+		{ "item": "titanium", "amount":120}
+	],
+	"category": "crafting",
+	"research": "cryofluidmixer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

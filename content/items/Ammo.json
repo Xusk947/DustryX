@@ -1,0 +1,9 @@
+{
+	"name": "Ammo",
+	"description": "Cartridge Base",
+	"cost": 2.5,
+	"color": "636373FF",
+	"hardness": 3.7,
+	"flammability": 0.4,
+	"explosiveness": 3
+}

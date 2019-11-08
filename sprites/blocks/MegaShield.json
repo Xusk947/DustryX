@@ -1,0 +1,30 @@
+{
+	"name": "Experimental Shield",
+	"description": "[red]DANGER,[]It's Experemental Buildings",
+	"type": "ForceProjector",
+	"health": 1200,
+	"size": 5,
+	"radius": 200.0,
+	"phaseRadiusBoost":50,
+	"cooldownNormal": 3.0,
+	"consumes":{
+	    "power": 16.6666667,
+	  	"items": {
+			"items": [
+				{ "item": "uraniumrod", "amount": 2}
+				
+			],
+			"booster":true
+		}
+	    },
+	"requirements": [
+		{ "item": "steel", "amount": 1000},
+		{ "item": "thorium", "amount":750},
+		{ "item": "titanium", "amount": 500},
+		{ "item": "silicon", "amount": 825}
+		
+	],
+	"boost":true,
+	"category": "effect",
+	"research": "force-projector"
+}

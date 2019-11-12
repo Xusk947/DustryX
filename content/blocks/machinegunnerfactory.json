@@ -1,6 +1,6 @@
 {
 	"name": " Intercopter Factory",
-	"description": "Makes Fast Drone units.",
+	"description": "Makes Gunner Drone units.",
 	"type": "UnitFactory",
 	"unitType": "machinegunner",
 	"size": 2,

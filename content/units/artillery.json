@@ -1,0 +1,22 @@
+{
+	"type": "GroundUnit",
+	"name": "Interceptors",
+	"description": "You see Him?",
+	"speed": 0.03,
+	"flying": false,
+	"health": 100,
+	"range": 500,
+	"weaponOffsetY": 7,
+	"rotateSpeed": 3,
+	"mass": 3000,
+	"targetAir": false,
+	"rotateWeapon": true,
+	"weapon": {
+		"name": "rocketartillery",
+		"length": 2.0,
+		"damage": 50.0,
+		"reload": 1000.0,
+		"alternate": true,
+		"bullet": "missileSwarm"
+	}
+}

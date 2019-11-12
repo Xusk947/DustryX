@@ -1,0 +1,18 @@
+{
+	"name": "Missile Machine Gunner",
+	"description": "Fast fast fast.",
+	"speed": 0.3,
+	"boostSpeed": 1.5,
+	"buildPower": 2.0,
+	"engineColor": "#564637FF",
+	"flying": false,
+	"health": 300,
+	"weaponOffsetX": 0,
+	"weapon": {
+		"name": "gunmachine",
+		"length": 1.5,
+		"reload": 10,
+		"alternate": false,
+		"bullet": "missileRevenant"
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"type": "ArtilleryTurret",
+	"name": "NUKE",
+	"description": "[red]DANGER![] Oh you win this hame",
+	"health": 2500,
+	"size": 4,
+	"reload": 5000,
+	"range": 5000,
+	"ammoUseEffect": "shellEjectBig",
+	"inaccuracy": 0,
+	"targetAir": false,
+	"rotatespeed": 999,
+	"idleSoundVolume": 200,
+	"shootSound": "Nuke",
+	"ammo": {
+		"NuclearBomb": {
+			"speed": 10,
+			"lifetime":10000,
+			"damage": 6000,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"ammoMultiplier": 1,
+			"splashDamageRadius":300,
+			"bulletSprite": "dustryx-anuke",
+			"splashDamage": 1000,
+			"bulletWidth": 15,
+			"bulletHeight": 20
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 500 },
+		{ "item": "lead", "amount": 1000 },
+		{ "item": "titanium", "amount": 1200 },
+		{ "item": "thorium", "amount": 1000},
+		{ "item": "graphite", "amount":700},
+		{ "item": "uran", "amount": 800}
+	],
+	"category": "turret",
+	"research": "Artillery"
+}

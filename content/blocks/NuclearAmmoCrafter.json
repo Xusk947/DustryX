@@ -1,0 +1,39 @@
+{
+	"type": "GenericCrafter",
+	"name": "Uran Ammo Crafter",
+	"description": "[red]DANGER!! []Race of weapons was starting",
+	"liquidCapacity": 50,
+	"outputItem": {"item" : "NuclearBomb", "amount": 1.0},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 1000,
+	"itemCapacity":200,
+	"liqudCapacity":60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 10.0,
+		"items": {
+			"items": [
+				{ "item": "steel", "amount": 100 },
+				{ "item": "uraniumrod", "amount":50},
+				{ "item": "uran", "amount":75},
+				{ "item": "iron", "amount":200}
+			]
+		},
+		"liquid": {
+			"liquid": "mazut",
+			"amount": 1
+		}
+	    },
+	"requirements": [
+		{ "item": "lead", "amount": 650 },
+		{ "item": "copper", "amount": 250 },
+		{ "item": "graphite", "amount": 345 },
+		{ "item": "uran", "amount": 250}
+	],
+	"category": "crafting",
+	"research": "UranAmmocrafter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

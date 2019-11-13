@@ -1,0 +1,8 @@
+{
+	"name": "Nuclear Bomb",
+	"description": "[red]Oh No[]",
+	"cost": 5.5,
+	"color": "6C9F34FF",
+	"radioactivity": 10.0,
+	"hardness": 6.0
+}

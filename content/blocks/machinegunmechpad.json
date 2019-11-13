@@ -1,0 +1,18 @@
+{
+	"name": "Missile Machine gunner Mech Pad",
+	"description": "Transform into the Missile Machine Gunner mech.",
+	"type": "MechPad",
+	"mech": "machinegunnermech",
+	"size": 2,
+	"consumes": {
+		"power": 0.7
+	},
+	"category": "upgrade",
+	"research": "dart-mech-pad",
+	"requirements": [
+		{ "item": "titanium", "amount": 70 },
+		{ "item": "lead", "amount": 40 },
+		{ "item": "silicon", "amount": 40 },
+		{ "item": "graphite", "amount": 150 }
+	]
+}

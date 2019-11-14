@@ -10,8 +10,7 @@
 	"inaccuracy": 0,
 	"targetAir": false,
 	"rotatespeed": 999,
-	"idleSoundVolume": 200,
-	"shootSound": "Nuke",
+	"shootSound": "nuke",
 	"ammo": {
 		"NuclearBomb": {
 			"speed": 10,

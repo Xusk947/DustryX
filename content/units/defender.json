@@ -1,0 +1,24 @@
+{
+	"type": "GroundUnit",
+	"name": "Defender",
+	"description": "Big Shield",
+	"speed": 0.02,
+	"flying": false,
+	"health": 1500,
+	"range": 10,
+	"weaponOffsetY": 0,
+	"rotateSpeed": 3,
+	"mass": 7,
+	"targetAir": true,
+	"rotateWeapon": true,
+	"weapon": {
+		"name": "block",
+		"length": 2.0,
+		"damage": 30.0,
+		"reload": 200.0,
+		"speed":9999.0,
+		"alternate": true,
+		"bullet": "artilleryUnit",
+		"ejectEffect":"unitDrop"
+	}
+}

@@ -8,7 +8,7 @@
 	"range": 500,
 	"weaponOffsetY": 7,
 	"rotateSpeed": 3,
-	"mass": 3000,
+	"mass": 5,
 	"targetAir": false,
 	"rotateWeapon": true,
 	"weapon": {

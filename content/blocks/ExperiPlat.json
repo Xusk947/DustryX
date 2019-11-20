@@ -1,0 +1,31 @@
+{
+	"name": " Experimental Platform ",
+	"description": "[red]DANGER!![]Makes Really Strong Unit",
+	"type": "UnitFactory",
+	"unitType": "mobplat",
+	"size": 6,
+	"maxSpawn":1,
+	"produceTime": 3000,
+	
+		"consumes": {
+		"power": 1.0,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 120},
+				{"item": "graphite", "amount": 250},
+				{"item":"steel","amount":245}
+			]
+		}
+	},
+	"category": "units",
+	"research": "fortress-factory",
+	"requirements": [
+		{ "item": "graphite", "amount": 400 },
+		{ "item": "lead", "amount": 500 },
+		{ "item": "silicon", "amount": 150 },
+		{ "item": "titanium", "amount": 300 },
+		{ "item": "uran", "amount":250 },
+		{ "item": "steel", "amount":345},
+		{ "item":"iron","amount":265}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"type": "GroundUnit",
+	"name": "Mobile Platform",
+	"description": "1-st bullet not like shield",
+	"speed": 0.03,
+	"flying": false,
+	"health": 4000,
+	"range": 250,
+    "reload":200,
+	"weaponOffsetX": -1,
+	"rotateSpeed": 3,
+	"mass": 20,
+	"targetAir": true,
+	"rotateWeapon": true,
+	"canHeal":true,
+	"weapon": {
+		"name": "linkor",
+		"length": 2.0,
+		"reload": 200.0,
+		"damage":100,
+		"shots":2,
+		"bullet":{
+    "type": "BasicBulletType",
+    "bulletSprite": "dustryx-linkor",
+    "lifetime": 100,
+    "speed": 2,
+    "splashDamageRadius": 2,
+    "splashDamage": 9,
+    "fragBullets": 5,
+    "fragBullet": {
+        "type": "MissileBulletType",
+        "speed": 0.5,
+        "damage":75,
+        "fragBullets": 5,
+        "fragBullet": {
+            "type": "LiquidBulletType",
+            "liquid": "slag",
+            "speed": 2,
+            "damage": 50
+        }
+    }
+}
+
+}
+}

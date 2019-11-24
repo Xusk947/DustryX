@@ -1,0 +1,39 @@
+{
+	"name": "Zeus",
+	"description": "Shoot Lighting Ball",
+	"speed": 0.6,
+	"boostSpeed": 1.2,
+	"buildPower": 1.7,
+	"engineColor": "#537FA3FF",
+	"flying": false,
+	"health": 300,
+	"weaponOffsetX": 0,
+	"weapon": {
+		"name": "zeusgun",
+		"length": 1.5,
+		"reload": 100,
+		"alternate": false,
+		"bullet":{
+    "type": "FlakBulletType",
+    "lifetime": 100,
+    "speed": 1,
+    "splashDamageRadius": 2,
+    "splashDamage": 9,
+    "frontColor": "537FA3FF",
+    "backColor": "385872FF",
+    "fragBullets": 10,
+    "fragBullet": {
+        "lifetime": 100,
+        "damage":35,
+        "type": "MissileBulletType",
+        "speed": 1.0,
+        "homingPower": 0.0002,
+        "lightining":5,
+        "lightningLength":10,
+        "hitShake":5
+    }
+}
+
+
+}
+}

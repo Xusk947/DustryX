@@ -1,0 +1,18 @@
+{
+	"name": "Missile Machine Gunner",
+	"description": "Fast fast fast.",
+	"speed": 0.5,
+	"boostSpeed": 1.1,
+	"buildPower": 1.3,
+	"engineColor": "#FF9C5AFF",
+	"flying": false,
+	"health": 300,
+	"weaponOffsetX": 1,
+	"weapon": {
+		"name": "firegun",
+		"length": 1.5,
+		"reload": 10,
+		"alternate": false,
+		"bullet": "pyraFlame"
+	}
+}

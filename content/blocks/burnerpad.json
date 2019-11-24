@@ -1,0 +1,18 @@
+{
+	"name": "Burner Mech Pad",
+	"description": "Transform into the Burner mech.",
+	"type": "MechPad",
+	"mech": "burner",
+	"size": 2,
+	"consumes": {
+		"power": 0.7
+	},
+	"category": "upgrade",
+	"research": "machinegunmechpad",
+	"requirements": [
+		{ "item": "titanium", "amount": 120 },
+		{ "item": "lead", "amount": 150 },
+		{ "item": "silicon", "amount": 75},
+		{ "item": "graphite", "amount": 70 }
+	]
+}

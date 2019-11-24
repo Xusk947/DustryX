@@ -1,0 +1,18 @@
+{
+	"name": "Zeus Mech Pad",
+	"description": "Transform into the Zeus mech.",
+	"type": "MechPad",
+	"mech": "zeus",
+	"size": 2,
+	"consumes": {
+		"power": 1.0
+	},
+	"category": "upgrade",
+	"research": "machinegunmechpad",
+	"requirements": [
+		{ "item": "titanium", "amount": 230 },
+		{ "item": "thorium", "amount": 125 },
+		{ "item": "silicon", "amount": 120},
+		{ "item": "graphite", "amount": 275 }
+	]
+}

@@ -1,0 +1,11 @@
+{
+    "type":"Wall",
+    "name": "Rail",
+    "category":"defense",
+    "powerProduction": 1 ,
+    "size":2,
+    "buildVisibility":"sandboxOnly",
+    "rotate":true,
+    "hasShadow":false
+    
+}

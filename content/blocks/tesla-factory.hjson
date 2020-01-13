@@ -1,0 +1,24 @@
+{
+	name: Tesla Factory  T1
+	description: Makes Basic Tesla units
+	type: UnitFactory
+	unitType: teslaT1
+	size: 2
+	produceTime: 600
+		consumes: {
+		power: 0.9
+		items: {
+			items: [
+				silicon/10
+				graphite/10
+			]
+		}
+	}
+	category: units
+	research: gun-factory
+	requirements: [
+		  graphite/70
+		  lead/70
+	      silicon/70
+	]
+}

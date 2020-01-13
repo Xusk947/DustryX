@@ -1,0 +1,22 @@
+{
+	type: GroundUnit
+	name: Tesla T1
+	description: Shoot with lightingbolt
+	speed: 0.035
+	flying: false
+	health: 300
+	range: 120
+	weaponOffsetY: 7
+	rotateSpeed: 4
+	mass: 5.0
+	targetAir: false
+	rotateWeapon: true
+	weapon: {
+		name: netu
+		length: 2.0
+		damage: 35
+		reload: 300.0
+		alternate: true
+		bullet: lightning
+	}
+}

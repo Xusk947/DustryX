@@ -1,0 +1,22 @@
+{
+	type: GroundUnit
+	name: Artillery T1
+	description: Shoot on well distance
+	speed: 0.03
+	flying: false
+	health: 100
+	range: 500
+	weaponOffsetY: 7
+	rotateSpeed: 3
+	mass: 5
+	targetAir: false
+	rotateWeapon: true
+	weapon: {
+		name: netu
+		length: 2.0
+		damage: 50.0
+		reload: 500.0
+		alternate: true
+		bullet: missileSwarm
+	}
+}

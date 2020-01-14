@@ -1,0 +1,26 @@
+{
+	name: Artillery Factory  T2
+	description: Makes Advanced Artillery units
+	type: UnitFactory
+	unitType: artilleryT2
+	size: 3
+	produceTime: 1400
+		consumes: {
+		power: 2.0
+		items: {
+			items: [
+				silicon/20
+				graphite/10
+				thorium/5
+			]
+		}
+	},
+	category: units
+	research: tesla-factory
+	requirements: [
+		  graphite/10
+		  lead/140
+	      silicon/60
+	      thorium/80
+	]
+}

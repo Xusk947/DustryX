@@ -1,0 +1,26 @@
+{
+	name: Tesla Factory  T2
+	description: Makes Advanced Tesla units
+	type: UnitFactory
+	unitType: teslaT2
+	size: 3
+	produceTime: 1200
+		consumes: {
+		power: 1.8
+		items: {
+			items: [
+				silicon/20
+				graphite/20
+				thorium/10
+			]
+		}
+	}
+	category: units
+	research: gun-factoryT2
+	requirements: [
+		  graphite/140
+		  lead/140
+	      silicon/140
+	      thorium/70
+	]
+}

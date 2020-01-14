@@ -1,0 +1,24 @@
+{
+	name: Gunner Factory  T2
+	description: Makes Advanced Gunner units
+	type: UnitFactory
+	unitType: gunT2
+	size: 3
+	produceTime: 1000
+		consumes: {
+		power: 1.8
+		items: {
+			items: [
+				silicon/10
+				graphite/20
+			]
+		}
+	},
+	category: units
+	research: artillery-factoryT2
+	requirements: [
+		  graphite/60
+		  lead/140
+	      silicon/140
+	]
+}

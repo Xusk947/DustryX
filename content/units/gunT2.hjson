@@ -1,0 +1,22 @@
+{
+	type: GroundUnit
+	name: Gunner T2
+	description: Have good reload
+	speed: 0.04
+	flying: false
+	health: 550
+	range: 200
+	weaponOffsetY: 7
+	rotateSpeed: 4.5
+	mass: 8
+	targetAir: false
+	rotateWeapon: true
+	weapon: {
+		name: netu
+		length: 2.0
+		damage: 80
+		reload: 130.0
+		alternate: true
+		bullet: standardCopper
+	}
+}

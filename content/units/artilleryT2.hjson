@@ -1,0 +1,31 @@
+{
+	type: GroundUnit
+	name: Artillery T1
+	description: Shoot with burning bullet
+	speed: 0.034
+	flying: false
+	health: 150
+	range: 550
+	weaponOffsetY: 7
+	rotateSpeed: 3
+	mass: 7
+	targetAir: false
+	rotateWeapon: true
+	weapon: {
+		name: netu
+		length: 2.0
+		damage: 100.p
+		reload: 600.0
+		alternate: true
+		bullet: missileSwarm
+    fragBullets: 5
+    fragBullet: {
+        type: LiquidBulletType
+        liquid: slag
+        lifetime: 50
+        damage: 10
+        speed: 1
+        homingPower: 3
+        homingRange: 40
+	}
+}}

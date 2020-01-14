@@ -1,0 +1,23 @@
+{
+	type: GroundUnit
+	name: Anti-Air T2
+	description: Anti air friends ;)
+	speed: 0.04
+	flying: false
+	health: 550
+	range: 250
+	weaponOffsetY: 7
+	rotateSpeed: 6.0
+	mass: 7
+	targetAir: true
+	rotateWeapon: true
+	targetGround: false
+	weapon: {
+		name: nevidno
+		length: 2.0
+		damage: 80
+		reload: 70.0
+		alternate: true
+		bullet: missileJavelin
+	}
+}

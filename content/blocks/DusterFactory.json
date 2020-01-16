@@ -1,0 +1,26 @@
+{
+	"name": " Duster Factory",
+	"description": "Makes Duster units.",
+	"type": "UnitFactory",
+	"unitType": "Duster",
+	"size": 2,
+	"produceTime": 2000,
+	"consumes": {
+		"power": 2.0,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 15},
+				{"item": "steel", "amount": 10},
+				{"item": "titanium", "amount":20}
+			]
+		}
+	},
+	"category": "units",
+	"research": "ghoul-factory",
+	"requirements": [
+		{ "item": "thorium", "amount": 45 },
+		{ "item": "silicon", "amount": 80 },
+		{ "item": "steel", "amount": 125 },
+		{ "item": "titanium", "amount": 95 }
+	]
+}

@@ -1,0 +1,28 @@
+{
+    "type": "ChargeTurret",
+    "name": "Collizer",
+    "description": "Meltdown Shoots.",
+    "targetAir": true,
+    "targetGround": true,
+    "shootType": "meltdownLaser",
+    "health": 750,
+    "size": 2,
+    "reload": 250,
+    "damage": 50,
+    "shots": 1,
+    "recoil": 0,
+    "rotateSpeed": 0,
+    "range": 200,
+    "rotate":true,
+    "shootEffect": "lightningShoot",
+    
+    "requirements": [
+        { "item": "plastanium", "amount": 20 },
+        { "item": "metaglass", "amount": 40 },
+        { "item": "titanium", "amount": 20 },
+        { "item": "silicon", "amount": 30 }
+    ],
+    "category": "turret",
+    "shootSound": "spark",
+	"research": "arc"
+}

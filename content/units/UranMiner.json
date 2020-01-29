@@ -14,7 +14,7 @@
                   "uran",
                   "thorium",
                   "titanium"
-]
+],
 	"drillPower":6.0,
 	"itemCapacity": 100,
 	"range":10,

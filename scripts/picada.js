@@ -49,7 +49,7 @@ picad.homingPower = 1;
 picad.homingRange = 25;
 picad.knockback = 0.1;
 picad.hitShake = 0.2;
-picad.bulletSprite = "tankx-picad";
+picad.bulletSprite = "dustryx-picad";
 picad.frontColor = Color.valueOf("#ffeecc");
 picad.fragBullet = picadFrag;
 

@@ -1,0 +1,17 @@
+{
+	name: Zeus Mech Pad
+	description: Transform into the Picada
+	type: MechPad
+	mech: picada-ship
+	size: 3
+	consumes: {
+		power: 3.0
+	}
+	category: upgrade
+	research: copper-wall
+	requirements: [
+	    silicon/125
+	    titanium/75
+	    lead/270
+	]
+}

@@ -10,8 +10,10 @@
 	category: upgrade
 	research: copper-wall
 	requirements: [
-	    silicon/125
-	    titanium/75
-	    lead/270
+	    silicon/375
+	    titanium/145
+	    lead/420
+            steel/240
+            uran/80
 	]
 }

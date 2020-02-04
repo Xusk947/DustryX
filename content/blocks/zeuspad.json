@@ -1,6 +1,6 @@
 {
-	"name": "Zeus Mech Pad",
-	"description": "Transform into the Zeus mech.",
+	"name": "PicadaMech Pad",
+	"description": "Transform into the Picada mech.",
 	"type": "MechPad",
 	"mech": "zeus",
 	"size": 2,

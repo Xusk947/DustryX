@@ -1,6 +1,6 @@
 {
-	"name": "Chrome Wraith Factory",
-	"description": "Makes Chrome Wraith units.",
+	"name": "Uran Miner Factory",
+	"description": "Makes Uran Miner?",
 	"type": "UnitFactory",
 	"unitType": "UranMiner",
 	"size": 2,
